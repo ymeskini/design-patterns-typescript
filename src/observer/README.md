@@ -1,0 +1,1 @@
+![Observer Diagram](diagram.png)

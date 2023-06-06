@@ -1,0 +1,1 @@
+![Strategy Example](diagram.png)
