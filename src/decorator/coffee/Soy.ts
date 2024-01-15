@@ -16,13 +16,13 @@ export class Soy extends CondimentDecorator {
 
     switch (size) {
       case Size.TALL:
-        return 0.10 + this.beverage.cost();
+        return .10 + this.beverage.cost();
       case Size.GRANDE:
-        return 0.15 + this.beverage.cost();
+        return .15 + this.beverage.cost();
       case Size.VENTI:
-        return 0.20 + this.beverage.cost();
+        return .20 + this.beverage.cost();
       default:
-        return 0.10 + this.beverage.cost();
+        return this.beverage.cost();
     }
   }
 }

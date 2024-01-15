@@ -3,7 +3,6 @@
         "target": "esnext",
         "moduleResolution": "Node16",
         "module": "Node16",
-        "esModuleInterop": true,
-        "experimentalDecorators": true
+        "esModuleInterop": true
     }
 }
