@@ -1,4 +1,4 @@
-import { Beverage } from "./Beverage";
+import { Beverage, Size } from "./Beverage";
 import { DarkRoast } from "./DarkRoast";
 import { Espresso } from "./Espresso";
 import { HouseBlend } from "./HouseBlend";
@@ -20,6 +20,7 @@ const startBuzzCoffee =  (...args: string[]) => {
     beverage3 = new Soy(beverage3);
     beverage3 = new Mocha(beverage3);
     beverage3 = new Whip(beverage3);
+    beverage3.setSize(Size.VENTI)
     console.log(beverage3.getDescription() + " $" + beverage3.cost());
 };
 
