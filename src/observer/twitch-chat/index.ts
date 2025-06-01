@@ -13,10 +13,8 @@ import {
 import { webSocket } from 'rxjs/webSocket';
 import WebSocket, { WebSocketServer } from 'ws';
 
-declare module 'ws' {
-  interface WebSocket {
-    id?: string;
-  }
+interface WebSocketWithId extends WebSocket {
+  id: string;
 }
 
 const wss = new WebSocketServer({ port: 8080 });
@@ -74,7 +72,8 @@ $messages.subscribe(() => {
 
 const clientConnections = new Map<string, boolean>();
 
-wss.on('connection', (ws) => {
+wss.on('connection', (websocket) => {
+  const ws = websocket as WebSocketWithId;
   ws.id = randomUUID();
   clientConnections.set(ws.id, true);
 

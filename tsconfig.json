@@ -3,6 +3,7 @@
         "target": "esnext",
         "moduleResolution": "Node16",
         "module": "Node16",
-        "esModuleInterop": true
+        "esModuleInterop": true,
+        "isolatedModules": true
     }
 }
