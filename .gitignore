@@ -1,3 +1,6 @@
 node_modules
 book
 .DS_Store
+
+tsconfig.tsbuildinfo
+*.js
