@@ -5,12 +5,18 @@ Ref. [Refactoring Guru](https://refactoring.guru/design-patterns/catalog)
 ## Available Patterns
 
 ### Creational Patterns
+These patterns provide various object creation mechanisms, which increase flexibility and reuse of existing code.
+
+
 - **[Builder](./src/builder/)** - Construct complex objects step by step
 - **[Factory Method](./src/factory/)** - Create objects without specifying exact classes
 - **[Prototype](./src/prototype/)** - Create objects by copying existing instances
 - **[Singleton](./src/singleton/)** - Ensure only one instance exists
 
 ### Structural Patterns
+These patterns explain how to assemble objects and classes into larger structures while keeping these structures flexible and efficient.
+
+
 - **[Adapter](./src/adapter/)** - Make incompatible interfaces work together
 - **[Bridge](./src/bridge/)** - Separate abstraction from implementation
 - **[Composite](./src/composite/)** - Compose objects into tree structures
@@ -20,6 +26,9 @@ Ref. [Refactoring Guru](https://refactoring.guru/design-patterns/catalog)
 - **[Proxy](./src/proxy/)** - Provide placeholder/surrogate for another object
 
 ### Behavioral Patterns
+These patterns are concerned with algorithms and the assignment of responsibilities between objects.
+
+
 - **[Command](./src/command/)** - Encapsulate requests as objects
 - **[Iterator](./src/iterator/)** - Access elements sequentially without exposing structure
 - **[Observer](./src/observer/)** - Define one-to-many dependency between objects
