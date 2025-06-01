@@ -1,8 +1,8 @@
 {
     "compilerOptions": {
         "target": "esnext",
-        "moduleResolution": "Node16",
-        "module": "Node16",
+        "moduleResolution": "bundler",
+        "module": "preserve",
         "esModuleInterop": true,
         "isolatedModules": true
     }
